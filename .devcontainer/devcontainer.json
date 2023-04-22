@@ -55,6 +55,6 @@
     // Re-use existing SSH keys
     "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached",
     // GitHub configuration
-    "source=${localEnv:HOME}/.github_config.json,target=/home/vscode/.github_config.json,type=bind,consistency=cached",
+    "source=${localEnv:HOME}/.github_config.json,target=/home/vscode/.github_config.json,type=bind,consistency=cached"
   ]
 }
